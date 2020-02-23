@@ -1,0 +1,136 @@
+\documentclass{article}
+\usepackage{xeCJK}
+\usepackage{hyperref,amsmath,color,graphicx,amssymb,subfigure}
+\setCJKmainfont{AR PL UKai CN}
+\newcommand{\beq}{\begin{equation}}
+\newcommand{\eeq}{\end{equation}}
+\newcommand{\cpic}[2]{
+\begin{center}
+\includegraphics[scale=#1]{#2}
+\end{center}
+}
+%\cpicn{<size>}{<filename>}{<caption>}
+\newcommand{\cpicn}[3]
+{
+\begin{figure}
+\cpic{#1}{#2}
+\caption{#3\label{#2}}
+\end{figure}
+}
+\date{}
+\author{}
+
+ \title{升降算符计算}
+ \begin{document}
+ \maketitle
+ $(
+ \hat{a}
+ \hat{a}
+ \hat{a}
+ \hat{a}
+ +
+ \hat{a}^\dagger
+ \hat{a}
+ \hat{a}
+ \hat{a}
+ +
+ \hat{a}
+ \hat{a}^\dagger
+ \hat{a}
+ \hat{a}
+ +
+ \hat{a}
+ \hat{a}
+ \hat{a}^\dagger
+ \hat{a}
+ +
+ \hat{a}
+ \hat{a}
+ \hat{a}
+ \hat{a}^\dagger
+ +
+ \hat{a}^\dagger
+ \hat{a}^\dagger
+ \hat{a}
+ \hat{a}
+ +
+ \hat{a}
+ \hat{a}^\dagger
+ \hat{a}^\dagger
+ \hat{a}
+ +
+ \hat{a}
+ \hat{a}
+ \hat{a}^\dagger
+ \hat{a}^\dagger
+ +
+ \hat{a}^\dagger
+ \hat{a}
+ \hat{a}^\dagger
+ \hat{a}
+ +
+ \hat{a}
+ \hat{a}^\dagger
+ \hat{a}
+ \hat{a}^\dagger
+ +
+ \hat{a}^\dagger
+ \hat{a}
+ \hat{a}
+ \hat{a}^\dagger
+ +
+ \hat{a}^\dagger
+ \hat{a}^\dagger
+ \hat{a}^\dagger
+ \hat{a}
+ +
+ \hat{a}^\dagger
+ \hat{a}^\dagger
+ \hat{a}
+ \hat{a}^\dagger
+ +
+ \hat{a}^\dagger
+ \hat{a}
+ \hat{a}^\dagger
+ \hat{a}^\dagger
+ +
+ \hat{a}
+ \hat{a}^\dagger
+ \hat{a}^\dagger
+ \hat{a}^\dagger
+ +
+ \hat{a}^\dagger
+ \hat{a}^\dagger
+ \hat{a}^\dagger
+ \hat{a}^\dagger
+ )
+ |           2 \rangle =
+ \sqrt{           2 }|           0 \rangle
+ +
+ \sqrt{           8 }|           0 \rangle
+ +
+ \sqrt{          18 }|           0 \rangle
+ +
+ \sqrt{           4 }|           2 \rangle
+ +
+ \sqrt{          36 }|           2 \rangle
+ +
+ \sqrt{         144 }|           2 \rangle
+ +
+ \sqrt{          16 }|           2 \rangle
+ +
+ \sqrt{          81 }|           2 \rangle
+ +
+ \sqrt{          36 }|           2 \rangle
+ +
+ \sqrt{          48 }|           4 \rangle
+ +
+ \sqrt{         108 }|           4 \rangle
+ +
+ \sqrt{         192 }|           4 \rangle
+ +
+ \sqrt{         300 }|           4 \rangle
+ +
+ \sqrt{         360 }|           6 \rangle
+ $
+ \end{document}
